@@ -4,7 +4,7 @@
 
 # Site
 title: 路过而乙的  的  Blog
-subtitle: 'helloooooooooo'
+subtitle: 'Helloooooooooo'
 description: ''
 keywords:
 author: 路过而乙的
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.bilibili.com/
+url: https://fgrddddd.github.io
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/fgrddddd/fgrddddd.github.io.git # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: main
