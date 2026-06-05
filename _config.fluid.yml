@@ -500,7 +500,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/羊驼.jpg
+  banner_img: /img/alpaca.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -943,7 +943,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/双环万寿亭.jpg
+  banner_img: /img/tingzi.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -954,7 +954,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/颐和园.jpg
+  banner_img: /img/yiheyuan.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -983,7 +983,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/长城.jpg
+  banner_img: /img/wall.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -1000,10 +1000,10 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/日落.jpg
+  banner_img: /img/aunset.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  avatar: /img/1比1羊驼.jpg
+  avatar: /img/1alpaca.jpg
   name: "fgrddddd"
   intro: "siki哟米塞他那，卡通🔥"
   # 更多图标可从 https://fluid.ist/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
