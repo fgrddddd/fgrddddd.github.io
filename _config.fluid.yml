@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/fluid.png
+favicon: /img/忍耐.jpg
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/fluid.png
+apple_touch_icon: /img/忍耐.jpg
 
 # 浏览器标签页中的标题分隔符，效果：文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -41,7 +41,7 @@ code:
 
   # 代码语言
   # Code language
-  language:
+  language: 
     enable: true
     default: "TEXT"
 
@@ -87,7 +87,7 @@ fun_features:
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
-    typeSpeed: 70
+    typeSpeed: 100
 
     # 游标字符
     # Cursor character
@@ -140,25 +140,25 @@ dark_mode:
 color:
   # body 背景色
   # Color of body background
-  body_bg_color: "#eee"
+  body_bg_color: "#fff"
   # 暗色模式下的 body 背景色，下同
   # Color in dark mode, the same below
-  body_bg_color_dark: "#181c27"
+  body_bg_color_dark: "#252d38"
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
-  navbar_bg_color_dark: "#1f3144"
+  navbar_bg_color: ""
+  navbar_bg_color_dark: ""
 
   # 顶部菜单字体色
   # Color of navigation bar text
-  navbar_text_color: "#fff"
-  navbar_text_color_dark: "#d0d0d0"
+  navbar_text_color: "#eee"
+  navbar_text_color_dark: "#rgb(37, 45, 56)"
 
   # 副标题字体色
   # Color of subtitle text
-  subtitle_color: "#fff"
-  subtitle_color_dark: "#d0d0d0"
+  subtitle_color: "#eee"
+  subtitle_color_dark: "#rgb(37, 45, 56)"
 
   # 全局字体色
   # Color of global text
@@ -172,7 +172,7 @@ color:
 
   # 主面板背景色
   # Color of main board
-  board_color: "#fff"
+  board_color: "rgb(232, 225, 215)"
   board_color_dark: "#252d38"
 
   # 文章正文字体色
@@ -242,7 +242,7 @@ custom_css:
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:
-  enable: false
+  enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
@@ -376,7 +376,7 @@ navbar:
     # 不透明度，数字越大透明度越低，注意透明过度可能看不清菜单字体
     # Ratio of opacity, 1.0 is completely opaque
     # available: 0 - 1.0
-    alpha: 0.7
+    alpha: 0.1
 
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
@@ -500,7 +500,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/羊驼.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -519,7 +519,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示，支持列表格式来实现随机选择一行文字显示
     # If empty, text based on `subtitle` in hexo config, support list format to random selection of a row for display
-    text: "谓学不暇者，随暇亦不能学矣"
+    text: "谓学不暇者，虽暇亦不能学矣"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -552,7 +552,6 @@ index:
   # The browser tag to open the post
   # Available: _blank | _self
   post_url_target: _self
-
   # 是否显示文章信息（时间、分类、标签）
   # Meta information of post
   post_meta:
@@ -572,7 +571,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/山峰.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -625,7 +624,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 格式参照 ISO-8601 日期格式化
     # ISO-8601 date format
@@ -768,11 +767,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: utterances
 
 
 #---------------------------
@@ -788,7 +787,7 @@ post:
 # Based on GitHub Issues
 # See: https://utteranc.es
 utterances:
-  repo:
+  repo: "fgrddddd/fgrddddd.github.io"
   issue_term: pathname
   label: utterances
   theme: github-light
@@ -944,7 +943,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: /img/双环万寿亭.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -955,7 +954,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/颐和园.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -984,7 +983,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/长城.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -1001,18 +1000,17 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/日落.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  avatar: /img/avatar.png
-  name: "Fluid"
-  intro: "An elegant theme for Hexo"
+  avatar: /img/1比1羊驼.jpg
+  name: "fgrddddd"
+  intro: "siki哟米塞他那，卡通🔥"
   # 更多图标可从 https://fluid.ist/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://fluid.ist/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
-    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
-    - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/fgrddddd", tip: "GitHub" }
+
 
 
 #---------------------------
@@ -1086,11 +1084,11 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: utterances
 
 
 #---------------------------

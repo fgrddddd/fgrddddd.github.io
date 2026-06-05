@@ -1,10 +1,11 @@
 ---
-title: 标题
+title: about
 layout: about
 date: 2026-06-04 13:34:12
 tags:
- -测试
+ -about
 comments: true 
-categories:
- -第4次测试
+
 ---
+
+about me
