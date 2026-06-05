@@ -10,25 +10,11 @@ categories:
 ---
 测试
 
-{% blockquote David Levithan, Wide Awake %}
-Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.
-{% endblockquote %}
+{% pullquote [left] %}
+content啊实打实的
+asdas
+asdasd
+zxc
+{% endpullquote %}
 
- Youtube-ID: hY7m5jjJ9mM
-
-{% codeblock lang:javascript %}
-
-alert("Hello World");
-var myVar = "Hello World";
-
-{% endcodeblock %}
-
-{% codeblock [title] [lang:python] %}
-print("as)
-{% endcodeblock %}
-
-{% url_for blog index.html %}
-
-{% full_url_for index /a/path %}
-
-asdffdf
+{% iframe https://www.bilibili.com/video/BV1ZQuseDEdo/?vd_source=8b6de1eb14fc25b43e8345734ff88253 500 315 %}
