@@ -2,6 +2,8 @@
 
 cd /d E:\blog
 
+git push origin main
+
 call hexo clean
 call hexo generate
 
