@@ -669,7 +669,7 @@ post:
     enable: true
     # 进入文章时是否默认展开全部目录
     # Expand all TOC items on enter
-    expand_all: true
+    expand_all: false
 
     # 置于板块的左侧或右侧
     # place in the board
