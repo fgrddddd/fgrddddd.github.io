@@ -84,11 +84,22 @@ cls
 ```
 title Hexo 管理工具
 ```
-输出：{% img /img/bat命令/title-演示用法（输出前）.png 700 200 '"title 演示用法" "alt text"' %}
-{% img /img/bat命令/title-演示用法（输出后）.png 700 200 '"title 演示用法" "alt text"' %}
-只能用于cmd
-我服了，图片怎么是歪的？
+输出：
+输入前
+```
+命令提示符
+-----------------
+C:\UsersLENOVO>|
+```
+输入后
+```
+Hexo 管理工具
+-----------------
+C:\Users\LENOVO>title Hexo 管理工具
 
+C:\Users\LENOVO>|
+
+```
 ## cd
 ***进入对应磁盘***
 输入：
