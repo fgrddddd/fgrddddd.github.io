@@ -1,0 +1,278 @@
+/* =========================================
+   自定义 Footer
+   适配 Fluid 1.9.x
+========================================= */
+
+#my-footer{
+    margin-top:40px;
+    margin-bottom:10px;
+}
+
+.footer-card{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.65);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.4);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+}
+
+.footer-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+        0 18px 40px rgba(0,0,0,.12);
+
+}
+
+.footer-title{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    text-align:center;
+
+    letter-spacing:2px;
+
+    margin-bottom:18px;
+
+    color:#2f3542;
+
+}
+
+.footer-runtime{
+
+    text-align:center;
+
+    font-size:16px;
+
+    color:#666;
+
+    margin-bottom:20px;
+
+}
+
+.footer-line{
+
+    width:100%;
+
+    height:1px;
+
+    margin:22px 0;
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        rgba(0,0,0,.15),
+        transparent
+    );
+
+}
+
+.footer-info{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+}
+
+.footer-item{
+
+    background:#ffffff;
+
+    border-radius:16px;
+
+    padding:20px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    box-shadow:
+        0 6px 18px rgba(0,0,0,.05);
+
+}
+
+.footer-item:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.footer-item span{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#666;
+
+    font-size:15px;
+
+}
+
+.footer-item b{
+
+    display:block;
+
+    margin-top:10px;
+
+    font-size:24px;
+
+    color:#409EFF;
+
+}
+
+.footer-bottom{
+
+    text-align:center;
+
+    margin-top:20px;
+
+}
+
+.footer-bottom a{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    border-radius:50px;
+
+    background:#409EFF;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer-bottom a:hover{
+
+    transform:translateY(-3px);
+
+    background:#337ecc;
+
+}
+
+/* ===========================
+      深色模式
+=========================== */
+
+[data-user-color-scheme="dark"] .footer-card{
+
+    background:rgba(35,39,47,.75);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.4);
+
+}
+
+[data-user-color-scheme="dark"] .footer-title{
+
+    color:#ffffff;
+
+}
+
+[data-user-color-scheme="dark"] .footer-runtime{
+
+    color:#bbbbbb;
+
+}
+
+[data-user-color-scheme="dark"] .footer-line{
+
+    background:linear-gradient(
+        to right,
+        transparent,
+        rgba(255,255,255,.15),
+        transparent
+    );
+
+}
+
+[data-user-color-scheme="dark"] .footer-item{
+
+    background:#2d3139;
+
+    color:#eee;
+
+}
+
+[data-user-color-scheme="dark"] .footer-item span{
+
+    color:#bfbfbf;
+
+}
+
+[data-user-color-scheme="dark"] .footer-item b{
+
+    color:#66b1ff;
+
+}
+
+/* ===========================
+      手机端
+=========================== */
+
+@media (max-width:900px){
+
+.footer-info{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media (max-width:520px){
+
+.footer-card{
+
+    padding:20px;
+
+}
+
+.footer-info{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer-title{
+
+    font-size:22px;
+
+}
+
+.footer-item b{
+
+    font-size:20px;
+
+}
+
+}

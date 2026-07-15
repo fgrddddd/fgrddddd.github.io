@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 cd /d E:\blog
 
 set /p title=请输入文章标题：
