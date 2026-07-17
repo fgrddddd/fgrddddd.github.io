@@ -2,7 +2,8 @@
 title: bat命令
 date: 2026-07-01 21:04:05
 tags:
- -编程
+ -命令
+ -脚本
 comments: true 
 categories:
  -编程
